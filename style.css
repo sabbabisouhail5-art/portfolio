@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: #f8fafc;
+    line-hight: 1,6;
+}
+
+header  {
+    text-aline: center;
+    padding: 60px 20x;
+    backgrond: #111827;
+}
+
+header h1 {
+    font-size: 40px;
+    color: #22c55e; 
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #cbd5e1;
+    font-size: 18px;
+}
+
+section {
+    max-widght: 1000px;
+    margin: auto; 
+    padding: 40px 20px; 
+}
+
+h2 {
+    color: #22c55e;
+    margin bottom: 20px;
+    font-size: 28px;
+}
+
+.about p,
+.contact p {
+    background: #1e293b;
+    pading: 20px;
+    border-radius: 12px;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+skills-list span {
+    background: #1e293b;
+    color: #f8fafc;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: 1px solid #334155;
+}
+
+.project-card {
+    backgrond: #1e293b; 
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    border: 1px solid #334155;
+}
+
+.project-card h3 {
+    color: #38bdf8;
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    margin-bottom: 10px;
+    color: #e2e8f0;
+}
+
+.project-card a,
+.contact a {
+    color: #22c55e;
+    text-decoration: none;
+    font-weight:bold; 
+}
+
+.project-card a:hover,
+.contact a:hover {
+    text-decoration: unedrline;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    backgrond: #11827;
+    color: #94a3b8;
+    margin-top: 30px;
+}
